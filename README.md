@@ -12,12 +12,12 @@ Optionally, you can directly parse the path of image by option `-i`.
 
 ### Usage
 
-Prepare a JSON file named `.mathpix_api.json` in the same path as the Python scripts
+Prepare a JSON file named `.mathpix_api.json` in the same path as the Python script
 
 ```json
 {
-    'app_key': 'xxxxxxxxxxxx',
-    'app_id': 'xxxxxxxxxxxx',
+    "app_key": "xxxxxxxxxxxx",
+    "app_id": "xxxxxxxxxxxx"
 }
 ```
 
@@ -30,7 +30,7 @@ python3 mathpixocr.py -p --format latex_styled -i example.png
 ### Limits
 
 The scripts is only tested on macOS. Meanwhile, when grabing image from the clipboard,
-the image will be copied as '.temp_eq.png' under the same paath as the script. Therefore you
+the image will be copied as '.temp_eq.png' under the same path as the script. Therefore you
 have to put the script under the directory you have the writting permission.
 
 ### License
